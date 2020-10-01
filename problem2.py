@@ -23,19 +23,18 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
-numbera=input("Enter an integer")
-numberb=input("Enter another integer")
-numbera=int(numbera)
-numberb=int(numberb)
-a=str(numbera)
-b=str(numberb)
+a=input("Enter an integer")
+b=input("Enter another integer")
 
-if (numbera<numberb):
-    equation=numberb%numbera
-elif (numberb<numbera):
-    equation=numbera%numberb
+x=str(smaller_number)
+y=str(larger_number)
 
-if equation==0:
-    print(""+a+" "+ "is a factor of"+" "+b+"")
-elif equation==0:
-    print(""+b+" "+"is not a factor of"+" "+a+"")
+if a<b:
+    x=a and y=b
+elif a>b:
+    x=b and y=a
+
+if y%x==0:
+    print(""+smaller_number+" "+ "is a factor of"+larger_number+"")
+elif y%x==1:
+    print(""+smaller_number+" "+ "is not a factor of"+larger_number+"")
