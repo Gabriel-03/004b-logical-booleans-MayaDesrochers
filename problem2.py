@@ -23,3 +23,19 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+numbera=input("Enter an integer")
+numberb=input("Enter another integer")
+numbera=int(numbera)
+numberb=int(numberb)
+a=str(numbera)
+b=str(numberb)
+
+if (numbera<numberb):
+    equation=numberb%numbera
+elif (numberb<numbera):
+    equation=numbera%numberb
+
+if equation==0:
+    print(""+a+" "+ "is a factor of"+" "+b+"")
+elif equation==0:
+    print(""+b+" "+"is not a factor of"+" "+a+"")
