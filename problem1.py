@@ -23,8 +23,8 @@ import math
 number=input("Enter number")
 number=float(number)
 a=str(number)
-if (number%6==0 and number%8==1):
-    print(""+a+" "+"is frue")
-
-elif (number%6==0 and number%8==0):
+if (number%6==0 and number%8==0):
     print(""+a+" "+"is not frue")
+
+elif (number%6==0):
+    print(""+a+" "+"is frue")
