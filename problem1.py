@@ -29,4 +29,4 @@ if (number%6==0 and number%8==0):
 elif (number%6==0 and number%8>0):
     print(""+a+" "+"is frue")
 else:
-    print(""+a+" "+"is frue")
+    print(""+a+" "+"is not frue")
