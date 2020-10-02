@@ -62,6 +62,6 @@ middle=str(y)
 largest=str(z)
 
 if x**2+y**2==z**2:
-    print(""+smallest+","+middle+","+largest+" " +"do form a Pythagorean triple")
+    print(""+smallest+","+middle+","+largest+" " +"form a Pythagorean triple")
 else:
     print(""+smallest+","+middle+","+largest+" " +"do not form a Pythagorean triple")
