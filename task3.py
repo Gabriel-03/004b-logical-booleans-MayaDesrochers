@@ -22,4 +22,4 @@ b=0
 if number < b:
     print(""+a+" "+"is not a positive integer")
 else:
-    print(""+a+" "+"is a positve integer.")
+    print(""+a+" "+"is a positve integer")
